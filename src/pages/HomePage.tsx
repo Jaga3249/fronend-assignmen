@@ -6,7 +6,7 @@ import {
   MessageCircleMore,
 } from "lucide-react";
 import Header from "../components/Header";
-import groupImg from "../../public/group.png";
+import groupImg from "../../public/Group.png";
 import { useState } from "react";
 import InputForms from "../forms/InputForms";
 import LlmForm from "../forms/LlmForm";
