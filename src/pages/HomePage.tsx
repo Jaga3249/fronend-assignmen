@@ -1,6 +1,5 @@
 import {
   Cog,
-  Dot,
   FileInput,
   FileOutput,
   Menu,
