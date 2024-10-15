@@ -48,10 +48,11 @@ const initialState = [
 ];
 const HomePage = () => {
   const [dragItem, setDragItem] = useState<string>("");
-  const [showInputForm, setShowInputForm] = useState<boolean>(false);
+  // const [showInputForm, setShowInputForm] = useState<boolean>(false);
   const [formData, setFormData] = useState(initialState);
   const navigate = useNavigate();
   const handleDrag = (e: React.DragEvent<HTMLDivElement>, item: string) => {
+    console.log(e);
     setDragItem(item);
   };
   const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
